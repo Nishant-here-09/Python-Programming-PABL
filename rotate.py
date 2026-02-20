@@ -5,9 +5,8 @@ class Solution:
         if n == 0:
             return
         
-        last = arr[-1]   # Store last element
+        last = arr[-1]  
         
-        # Shift elements to right
         for i in range(n - 1, 0, -1):
             arr[i] = arr[i - 1]
         
